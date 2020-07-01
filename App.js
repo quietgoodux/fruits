@@ -28,7 +28,6 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
@@ -67,7 +66,6 @@ const App: () => React$Node = () => {
             <LearnMoreLinks />
           </View>
         </ScrollView>
-      </SafeAreaView>
     </>
   );
 };
